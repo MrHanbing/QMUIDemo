@@ -8,13 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class XBReviewApi;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (assign, nonatomic) BOOL isWeb;
-@property(nonatomic, strong) XBReviewApi *reviewApi;
 
 @end
 

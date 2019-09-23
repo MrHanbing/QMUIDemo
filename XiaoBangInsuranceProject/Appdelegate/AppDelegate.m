@@ -7,56 +7,23 @@
 //
 
 #import "AppDelegate.h"
-//#import "QDUIHelper.h"
-//#import "QDCommonUI.h"
-#import "XBURLSchemesManager.h"
-#import "XBNetWorkConfig.h"
-#import "AppDelegate+XBRootController.h"
-#import <FLEX/FLEX.h>
-//#import <MNFloatBtn/MNFloatBtn.h>
-#import <FRDModuleManager/FRDModuleManager.h>
-#import "XBReviewApi.h"
+
+
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
-
-- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"XB_ModuleRegister" ofType:@"plist"];
-    
-    FRDModuleManager *manager = [FRDModuleManager sharedInstance];
-    [manager loadModulesWithPlistFile:plistPath];
-    return YES;
-}
-
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.isWeb = YES;
-    [[FRDModuleManager sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-    
-
-    [XBNetWorkConfig xb_configNetWork];
-    [self xb_appdelegateConfigurationRootController];
-
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyWindow];
+    UIViewController *ctr = [[UIViewController alloc]init];
+    self.window.rootViewController = ctr;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
-{
-
-    return [[XBURLSchemesManager sharedManager]openRouteLink:url];
-}
-
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(nonnull NSDictionary *)options
-{
-    //必写
-     return [[XBURLSchemesManager sharedManager]openRouteLink:url];
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

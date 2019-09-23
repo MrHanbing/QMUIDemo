@@ -2,9 +2,13 @@
 # SGPagingView
 
 
-* QQ群：429899752
-
 * [Swift Version](https://github.com/kingsic/SGPagingView-Swift)
+
+* QQ群：825339547
+
+* 1.6.0 开始支持 autolayout 创建
+
+* [SGTagsView 设计来源于本框架中的 SGPageTitleView](https://github.com/kingsic/SGCrayfish)
 
 
 ## 结构图
@@ -39,20 +43,22 @@ SGPageContentCollectionView（内部由 UICollectionView 实现）
 
 * `指示器长度自定义`<br>
 
+* `多种指示器滚动样式`<br>
+
 * `标题文字渐显效果`<br>
 
 * `标题文字缩放效果`<br>
 
-* `多种指示器滚动样式`<br>
+* `标题文字富文本样式`<br>
 
 
 ## Installation
-* 1、CocoaPods 导入 pod 'SGPagingView', '~> 1.6.0'
+* 1、CocoaPods 导入 pod 'SGPagingView', '~> 1.6.7'
 * 2、下载、拖拽 “SGPagingView” 文件夹到工程中
 
 
 ## 代码介绍
-#### SGPagingView 的使用（详细使用, 请参考 Demo）
+#### SGPagingView 的使用（详细使用，请参考 API 及 Demo）
 ``` 
     /// pageTitleViewConfigure
     SGPageTitleViewConfigure *configure = [SGPageTitleViewConfigure pageTitleViewConfigure];
@@ -169,6 +175,14 @@ b. 实现 SGPageContentScrollView 的 pageContentScrollView:index:代理方法�
 * 2019-01-09 ：v1.6.0 支持 autolayout 创建
 
 * 2019-03-27 ：v1.6.1 修复 1.6.0 版本 addBadgeForIndex 方法内 badge 布局问题
+
+* 2019-07-17 ：v1.6.3 修复设置图片样式下图片布局问题以及对内部代码的优化处理
+
+* 2019-07-20 ：v1.6.5 滚动样式下 titleTextZoom 属性支持指示器下划线及遮盖样式下的滚动
+
+* 2019-07-22 ：v1.6.6 SGPageTitleViewConfigure 新增 equivalence 属性支持静止样式下标题从左到右自动布局
+
+* 2019-07-27 ：v1.6.7 支持标题文字上下行样式以及 titleGradientEffect 属性与 resetTitleColor:titleSelectedColor: 方法的兼容
 
 
 ## License

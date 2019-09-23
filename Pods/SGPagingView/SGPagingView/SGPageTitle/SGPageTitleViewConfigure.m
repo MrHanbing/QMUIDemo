@@ -18,9 +18,9 @@
 }
 
 - (void)initialization {
-    _needBounces = YES;
     _showBottomSeparator = YES;
     _showIndicator = YES;
+    _equivalence = YES;
 }
 
 + (instancetype)pageTitleViewConfigure {

@@ -1,139 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "0F526F07-56E8-4EE8-8A36-05FD070AC154"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Web/XBWebView.m"
-            timestampString = "590327352.29493"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "-Xb_reload"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[XBWebView Xb_reload]"
-                  moduleName = "XiaoBangInsuranceProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hanbingbing/Documents/%E5%B0%8F%E5%B8%AE%E4%BB%A3%E7%A0%81/XiaoBangInsuranceProject/XiaoBangInsuranceProject/Web/XBWebView.m"
-                  timestampString = "590315053.591244"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__22-[XBWebView Xb_reload]_block_invoke"
-                  moduleName = "XiaoBangInsuranceProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hanbingbing/Documents/%E5%B0%8F%E5%B8%AE%E4%BB%A3%E7%A0%81/XiaoBangInsuranceProject/XiaoBangInsuranceProject/Web/XBWebView.m"
-                  timestampString = "590315053.593173"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "57"
-                  endingLineNumber = "57"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Web/XBWebView.m"
-            timestampString = "590327352.295006"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "-xb_loadRequest:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Modules/Common/base/XBBaseWebViewController.m"
-            timestampString = "590378282.210902"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "-alertAction"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[XBBaseWebViewController alertAction]"
-                  moduleName = "XiaoBangInsuranceProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hanbingbing/Documents/%E5%B0%8F%E5%B8%AE%E4%BB%A3%E7%A0%81/XiaoBangInsuranceProject/XiaoBangInsuranceProject/Modules/Common/base/XBBaseWebViewController.m"
-                  timestampString = "590315053.7019579"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__38-[XBBaseWebViewController alertAction]_block_invoke"
-                  moduleName = "XiaoBangInsuranceProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hanbingbing/Documents/%E5%B0%8F%E5%B8%AE%E4%BB%A3%E7%A0%81/XiaoBangInsuranceProject/XiaoBangInsuranceProject/Modules/Common/base/XBBaseWebViewController.m"
-                  timestampString = "590315053.7033139"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "99"
-                  endingLineNumber = "99"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Modules/Common/base/XBBaseWebViewController.m"
-            timestampString = "590378282.2114331"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "-alertAction"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
+            uuid = "EA2C2A64-17EA-4C80-BE19-1F2B2E22E5C7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -142,35 +16,30 @@
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
+            uuid = "5F5362AF-7434-48D9-B464-00834E16855A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Appdelegate/AppDelegate+XBRootController.m"
-            timestampString = "590327352.2968431"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-xb_requestConfig"
-            landmarkType = "7">
+            scope = "1"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "ED6D9009-F7F9-4608-A43B-270BF25338A9"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XiaoBangInsuranceProject/Modules/Common/base/XBBaseWebViewController.m"
-            timestampString = "590378282.211786"
+            filePath = "XiaoBangInsuranceProject/Appdelegate/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "@implementation XBBaseWebViewController"
-            landmarkType = "3">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
